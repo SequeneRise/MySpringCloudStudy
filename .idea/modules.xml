@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sequenRise-eureka/sequenRise-eureka.iml" filepath="$PROJECT_DIR$/sequenRise-eureka/sequenRise-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sequenRise-rabbitmq/sequenRise-rabbitmq.iml" filepath="$PROJECT_DIR$/sequenRise-rabbitmq/sequenRise-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sequenRise-user/sequenRise-user.iml" filepath="$PROJECT_DIR$/sequenRise-user/sequenRise-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sequenRise-zuul/sequenRise-zuul.iml" filepath="$PROJECT_DIR$/sequenRise-zuul/sequenRise-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v-rabbitmq/v-user (1).iml" filepath="$PROJECT_DIR$/v-rabbitmq/v-user (1).iml" />
+    </modules>
+  </component>
+</project>
