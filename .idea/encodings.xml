@@ -6,9 +6,9 @@
     <file url="file://$PROJECT_DIR$/sequenRise-rabbitmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sequenRise-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sequenRise-zuul" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/v-eureka" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/v-rabbitmq" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/v-user" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/v-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sequeneRise-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sequeneRise-rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sequeneRise-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sequeneRise-zuul" charset="UTF-8" />
   </component>
 </project>
