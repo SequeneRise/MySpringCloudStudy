@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.vritty</groupId>
-    <artifactId>sequenRise-zuul</artifactId>
+    <artifactId>sequeneRise-zuul</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>sequenRise-zuul</name>
+    <name>sequeneRise-zuul</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>

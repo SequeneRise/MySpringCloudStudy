@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.vritty</groupId>
-    <artifactId>sequenRise-user</artifactId>
+    <artifactId>sequeneRise-user</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>sequenRise-user</name>
+    <name>sequeneRise-user</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>

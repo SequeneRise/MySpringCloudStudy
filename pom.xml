@@ -27,10 +27,10 @@
     </build>
 
     <modules>
-        <module>sequenRise-eureka</module>
-        <module>sequenRise-user</module>
-        <module>sequenRise-rabbitmq</module>
-        <module>sequenRise-zuul</module>
+        <module>sequeneRise-eureka</module>
+        <module>sequeneRise-user</module>
+        <module>sequeneRise-rabbitmq</module>
+        <module>sequeneRise-zuul</module>
     </modules>
 
     <properties>
