@@ -1,0 +1,6 @@
+server:
+  port: 8080
+  context-path: /sequeneRise/user
+spring:
+  application:
+    name: equeneRise-user

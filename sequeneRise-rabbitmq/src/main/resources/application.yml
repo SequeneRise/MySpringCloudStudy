@@ -1,0 +1,6 @@
+server:
+  port: 8090
+  context-path: /sequeneRise/rabbitmq
+spring:
+  application:
+    name: equeneRise-rabbitmq
