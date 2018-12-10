@@ -31,6 +31,7 @@
         <module>sequeneRise-user</module>
         <module>sequeneRise-rabbitmq</module>
         <module>sequeneRise-zuul</module>
+        <module>sequeneRise-elasticsearch</module>
     </modules>
 
     <properties>
