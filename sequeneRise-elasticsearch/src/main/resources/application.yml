@@ -1,0 +1,8 @@
+
+server:
+  port: 8070
+  context-path: /sequeneRise/elasticsearch
+spring:
+  application:
+    name: sequeneRise-elasticsearch
+
