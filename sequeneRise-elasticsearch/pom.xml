@@ -11,7 +11,7 @@
     <description>Demo project for Spring Boot</description>
 
     <parent>
-        <groupId>com.vritty</groupId>
+        <groupId>com.sequeneRise</groupId>
         <artifactId>springcloud</artifactId>
         <version>1.0</version>
     </parent>

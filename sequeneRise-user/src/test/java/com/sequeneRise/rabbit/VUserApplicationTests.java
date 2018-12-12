@@ -1,4 +1,4 @@
-//package com.vritty.rabbit;
+//package com.sequeneRise.rabbit;
 //
 //import org.junit.Test;
 //import org.junit.runner.RunWith;
