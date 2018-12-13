@@ -6,21 +6,29 @@ import org.springframework.amqp.core.DirectExchange;
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.env.Environment;
 
+/**
+ * 消息队列配置
+ */
 @Configuration
 public class RabbitConfig {
+
+    @Autowired
+    private Environment env;
 
     @Bean
     public CachingConnectionFactory connectionFactory(){
         CachingConnectionFactory connectionFactory = new CachingConnectionFactory();
-        connectionFactory.setUsername("cc");
-        connectionFactory.setPassword("123456");
-        connectionFactory.setHost("127.0.0.1");
-        connectionFactory.setPort(5672);
-        connectionFactory.setVirtualHost("/myHost");
+        connectionFactory.setUsername(env.getProperty("username"));
+        connectionFactory.setPassword(env.getProperty("password"));
+        connectionFactory.setHost(env.getProperty("host"));
+        connectionFactory.setPort(env.getProperty("port",Integer.class));
+        connectionFactory.setVirtualHost(env.getProperty("virtualHost"));
         return connectionFactory;
     }
 
