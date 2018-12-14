@@ -1,7 +1,7 @@
 package com.sequeneRise.user.controller;
 
+import com.sequeneRise.model.User;
 import com.sequeneRise.user.mapper.UserMapper;
-import com.sequeneRise.user.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -17,21 +17,14 @@
         <version>1.4.0.RELEASE</version>
         <relativePath/>
     </parent>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
-
     <modules>
         <module>sequeneRise-eureka</module>
         <module>sequeneRise-user</module>
         <module>sequeneRise-rabbitmq</module>
         <module>sequeneRise-zuul</module>
         <module>sequeneRise-elasticsearch</module>
+        <module>sequeneRise-core</module>
+        <module>sequeneRise-config</module>
     </modules>
 
     <properties>

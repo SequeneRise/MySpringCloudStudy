@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.sequeneRise.user.mapper.UserMapper" >
-    <resultMap id="BaseResultMap" type="com.sequeneRise.user.model.User" >
+    <resultMap id="BaseResultMap" type="com.sequeneRise.model.User" >
         <id column="id" property="id" jdbcType="BIGINT" />
         <result column="username" property="username" jdbcType="VARCHAR" />
         <result column="password" property="password" jdbcType="VARCHAR" />
@@ -24,7 +24,7 @@
         WHERE id = #{id}
     </select>
 
-    <insert id="insert" parameterType="com.sequeneRise.user.model.User" >
+    <insert id="insert" parameterType="com.sequeneRise.model.User" >
         INSERT INTO
         user
         (username,password)
@@ -32,7 +32,7 @@
         (#{username}, #{password})
     </insert>
 
-    <update id="update" parameterType="com.sequeneRise.user.model.User" >
+    <update id="update" parameterType="com.sequeneRise.model.User" >
         UPDATE
         user
         SET

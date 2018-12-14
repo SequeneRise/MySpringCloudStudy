@@ -1,14 +1,14 @@
-package com.sequeneRise.user.model;
+package com.sequeneRise.model;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
 
     private Integer id;
 
     private String username;
 
     private String password;
-
-
 
     public String getUsername() {
         return username;

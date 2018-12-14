@@ -14,6 +14,7 @@ public class RabbitController {
 
     @RequestMapping(method = RequestMethod.POST,value = "/send")
     public String insert(){
+
         sender.sendMessage();
         return "success";
     }

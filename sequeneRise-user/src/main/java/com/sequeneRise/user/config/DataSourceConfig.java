@@ -1,6 +1,7 @@
 package com.sequeneRise.user.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
+import com.sequeneRise.config.DataSourceCommonConfig;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,19 +16,14 @@ import javax.sql.DataSource;
  * 数据库配置
  */
 @Configuration
-public class dataSourceConfig {
+public class DataSourceConfig {
 
     @Autowired
     private Environment environment;
 
     @Bean
     public DruidDataSource dataSource(){
-        DruidDataSource dataSource = new DruidDataSource();
-        dataSource.setDriverClassName(environment.getProperty("mysql.driverClassName"));
-        dataSource.setUrl(environment.getProperty("mysql.url"));
-        dataSource.setUsername(environment.getProperty("mysql.username"));
-        dataSource.setPassword(environment.getProperty("mysql.password"));
-        return dataSource;
+        return DataSourceCommonConfig.dataSource(environment);
     }
 
     @Bean

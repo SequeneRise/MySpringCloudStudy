@@ -1,6 +1,6 @@
 package com.sequeneRise.user.mapper;
 
-import com.sequeneRise.user.model.User;
+import com.sequeneRise.model.User;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper

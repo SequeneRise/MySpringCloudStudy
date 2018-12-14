@@ -64,6 +64,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-amqp</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.sequeneRise</groupId>
+            <artifactId>sequeneRise-core</artifactId>
+            <version>1.0</version>
+        </dependency>
     </dependencies>
 
     <build>

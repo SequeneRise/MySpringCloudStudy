@@ -1,5 +1,6 @@
 package com.sequeneRise.rabbit.config;
 
+import com.sequeneRise.config.RabbitmqCommonConfig;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
 import org.springframework.amqp.core.DirectExchange;
@@ -23,13 +24,7 @@ public class RabbitConfig {
 
     @Bean
     public CachingConnectionFactory connectionFactory(){
-        CachingConnectionFactory connectionFactory = new CachingConnectionFactory();
-        connectionFactory.setUsername(env.getProperty("username"));
-        connectionFactory.setPassword(env.getProperty("password"));
-        connectionFactory.setHost(env.getProperty("host"));
-        connectionFactory.setPort(env.getProperty("port",Integer.class));
-        connectionFactory.setVirtualHost(env.getProperty("virtualHost"));
-        return connectionFactory;
+        return RabbitmqCommonConfig.connectionFactory(env);
     }
 
     @Bean
