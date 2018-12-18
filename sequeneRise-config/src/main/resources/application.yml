@@ -1,5 +1,6 @@
 server:
   port: 4396
+#配置文件git地址
 spring:
   application:
     name: sequeneRise-config
