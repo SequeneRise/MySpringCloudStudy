@@ -9,13 +9,15 @@ import org.springframework.context.annotation.Configuration;
 
 import java.net.InetAddress;
 
+/**
+ * ES传输客户端配置
+ */
 @Configuration
 public class ElasticSearchConfig {
 
     @Bean
     public TransportClient getTransportClient() throws Exception {
-        TransportClient client = new PreBuiltTransportClient(Settings.EMPTY)
+        return new PreBuiltTransportClient(Settings.EMPTY)
                 .addTransportAddress(new TransportAddress(InetAddress.getByName("127.0.0.1"), 9300));
-        return client;
     }
 }
