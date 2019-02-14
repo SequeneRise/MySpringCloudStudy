@@ -1,0 +1,8 @@
+
+server:
+  port: 8060
+  context-path: /sequeneRise/light
+spring:
+  application:
+    name: sequeneRise-light
+

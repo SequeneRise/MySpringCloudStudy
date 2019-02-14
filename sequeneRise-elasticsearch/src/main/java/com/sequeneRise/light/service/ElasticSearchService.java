@@ -1,4 +1,4 @@
-package com.sequeneRise.es.service;
+package com.sequeneRise.light.service;
 
 import com.alibaba.fastjson.JSONObject;
 

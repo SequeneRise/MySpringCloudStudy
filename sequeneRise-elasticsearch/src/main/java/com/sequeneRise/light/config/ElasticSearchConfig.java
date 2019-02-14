@@ -1,4 +1,4 @@
-package com.sequeneRise.es.config;
+package com.sequeneRise.light.config;
 
 import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.settings.Settings;

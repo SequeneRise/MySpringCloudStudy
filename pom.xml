@@ -25,6 +25,7 @@
         <module>sequeneRise-elasticsearch</module>
         <module>sequeneRise-core</module>
         <module>sequeneRise-config</module>
+        <module>sequeneRise-light</module>
     </modules>
 
     <properties>

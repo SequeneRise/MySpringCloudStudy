@@ -1,7 +1,7 @@
-package com.sequeneRise.es.service.serviceImpl;
+package com.sequeneRise.light.service.serviceImpl;
 
 import com.alibaba.fastjson.JSONObject;
-import com.sequeneRise.es.service.ElasticSearchService;
+import com.sequeneRise.light.service.ElasticSearchService;
 import org.elasticsearch.action.bulk.BulkRequestBuilder;
 import org.elasticsearch.action.support.WriteRequest;
 import org.elasticsearch.client.transport.TransportClient;
